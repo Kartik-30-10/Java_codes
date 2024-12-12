@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // This is for even or odd number
-public class Main {
+public class Evod {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the number :");
