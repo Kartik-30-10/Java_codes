@@ -48,6 +48,18 @@ public class Area {
 //        double area = (Math.sqrt(3) / 4) * ((float)Math.pow(side,2));
 //        System.out.println("Area of  area Equilateral Triangle is: "+area);
 
+        //curved surface area of cylinder
+        float radius , height ;
+        double pai = 3.14;
+//        System.out.println("Enter the radius and  height of cylinder ");
+//        radius = in.nextFloat();
+//        height = in.nextFloat();
+//        System.out.println("Surface area of cylinder is "+ (2 * pai*(radius * height + Math.pow(radius, 2))));
+
+        //total surface area of sphere
+        System.out.println("Enter the radius of sphere ");
+        radius = in.nextFloat();
+        System.out.println("Total surface area is = " +(4.0 * pai * Math.pow(radius,2)));
         in.close();
     }
 }

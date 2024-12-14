@@ -35,7 +35,13 @@ public class Volume {
 //        volume = (4.0/3.0) * pai * Math.pow(raduis,3);
 //        System.out.println("Volume of sphere is : " +volume);
 
-        //
+        //volume of pyramid
+        System.out.println("Enter the length of base , width of base and height :");
+        base = in.nextFloat();
+        raduis = in.nextFloat();
+        height = in.nextFloat();
+        volume = (4.0 / 3) * base * raduis * height;
+        System.out.println("Volume of pyramid is : " +volume);
 
         in.close();
     }
