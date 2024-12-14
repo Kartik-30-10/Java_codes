@@ -23,12 +23,19 @@ public class Volume {
 //        System.out.println("Volume of Prism is :" +volume);
 
         // volume of cylinder
-        System.out.println("Enter the radius and height of cylinder:");
-        raduis = in.nextFloat();
-        height = in.nextFloat();
-        volume = pai * Math.pow(raduis,2) * height;
-        System.out.println("Volume of cylinder is : "+volume);
+//        System.out.println("Enter the radius and height of cylinder:");
+//        raduis = in.nextFloat();
+//        height = in.nextFloat();
+//        volume = pai * Math.pow(raduis,2) * height;
+//        System.out.println("Volume of cylinder is : "+volume);
 
+        // volume of sphere
+//        System.out.println("Enter the radius of sphere :");
+//        raduis = in.nextFloat();
+//        volume = (4.0/3.0) * pai * Math.pow(raduis,3);
+//        System.out.println("Volume of sphere is : " +volume);
+
+        //
 
         in.close();
     }
