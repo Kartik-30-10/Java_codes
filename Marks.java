@@ -3,29 +3,38 @@ import java.util.Scanner;
 public class Marks
 {
     public static void main(String[] args) {
-
-        Marks();
-    }
-    static int Marks(){
         Scanner in = new Scanner(System.in);
         int num;
         System.out.println("Enter the marks");
         num = in.nextInt();
-        if (num<100 || num=>91) {
-            System.out.println("AA");
+        Marks(num);
+    }
+    static int Marks( int num){
+        switch (num/10){
+            case 10,9:
+                System.out.println("AA");
+                break;
+            case 8:
+                System.out.println("AB");
+                break;
+            case 7:
+                System.out.println("BB");
+                break;
+            case 6:
+                System.out.println("BC");
+                break;
+            case 5:
+                System.out.println("CD");
+                break;
+            case 4:
+                System.out.println("DD");
+                break;
+            case 3,2,1:
+                System.out.println("Fail");
+                break;
+            default:
+                System.out.println("Enter vaild marks");
         }
-        if (num<90 || num=>81){
-            System.out.println("AB");
-        }
-        if (num<80 || num=>71){
-            System.out.println("BB");
-        }
-        if (num<70 || num=>61) {
-            System.out.println("BC");
-        }
-        if (num<60 || num=>51) {
-            System.out.println("CC");
-        }
-        if (num<40) System.out.println("Fail");
+        return num;
     }
 }
