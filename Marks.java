@@ -10,8 +10,8 @@ public class Marks
         Marks(num);
     }
     static int Marks( int num){
-        switch (num/10){
-            case 10,9:
+        switch (num / 10) {
+            case 10, 9:
                 System.out.println("AA");
                 break;
             case 8:
@@ -29,7 +29,7 @@ public class Marks
             case 4:
                 System.out.println("DD");
                 break;
-            case 3,2,1:
+            case 3, 2, 1:
                 System.out.println("Fail");
                 break;
             default:
